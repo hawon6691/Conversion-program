@@ -27,8 +27,8 @@ def save_texts_to_docx(texts, docx_path):
 
 # 사용 예
 file_name = '안녕하세요'
-hwpx_file = f"C:/Users/hawon/Develop/python/uni/hwp_form/change_file/{file_name}.hwpx"
-docx_file = f"C:/Users/hawon/Develop/python/uni/hwp_form/change_file/{file_name}.docx"
+hwpx_file = f"C:/Users/YourName/Develop/python/uni/hwp_form/change_file/{file_name}.hwpx"
+docx_file = f"C:/Users/YourName/Develop/python/uni/hwp_form/change_file/{file_name}.docx"
 
 texts = extract_text_from_hwpx(hwpx_file)
 save_texts_to_docx(texts, docx_file)

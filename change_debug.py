@@ -12,5 +12,5 @@ def debug_hwpx_structure(hwpx_path):
                 print(elem.tag, "=>", elem.text)
 
 # 실행
-hwpx_file = "C:/Users/hawon/Develop/python/uni/hwp_form/안녕하세요.hwpx"
+hwpx_file = "C:/Users/YourName/Develop/python/uni/hwp_form/안녕하세요.hwpx"
 debug_hwpx_structure(hwpx_file)
